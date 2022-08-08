@@ -1,0 +1,14 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+.botaoForm{
+    text-align: center;
+    margin-top: 10px;
+
+}
+footer.box{
+    margin-top: 20px;
+
+}

@@ -1,0 +1,71 @@
+.container{
+display: flex;
+flex-flow: column wrap;
+align-items:center;
+justify-content: center;
+height: 90vh;
+row-gap: 10px;
+column-gap: 30px;
+text-align: center;
+
+}
+.box{
+    border-color: rgba(12, 197, 243, 0.146);
+    border-width: 1;
+    border-style: inset;
+    background-color: rgba(17, 174, 213, 0.179);
+    height: 250px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.bloco-1{
+    font-family: 'Lobster', cursive;
+    margin-top: 15px;
+align-self: center;
+order: 0;
+height: 50px;
+border-radius: 10px;
+padding: 10px;
+flex: 0 1 auto;
+}
+.bloco-2{
+font-family: 'Shadows Into Light', cursive;
+font-size: 18px;
+text-align: left;
+order: 0;
+width: 200px;
+border-radius: 10px;
+padding: 10px;
+flex: 0 1 auto;
+align-self: center;
+}
+.bloco-3{
+    order: 0;
+border-radius: 10px;
+text-align: center;
+
+}
+.inputForm{
+    background-color: rgba(128, 128, 128, 0.087);
+    border-radius: 5px;
+    height: 25px;
+}
+button {
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #4cc8e4; 
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+button:hover {
+    background-color: #68cfe6c3; 
+    color: white;
+  }
+button:active {
+    background-color: #1fbee1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
